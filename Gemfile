@@ -1,11 +1,16 @@
-source 'http://ruby.taobao.org/'
+source 'https://rubygems.org/'
 ruby '2.0.0'
 
 gem 'rails', '4.0.2'
 gem 'pg', '0.17.1'
+gem 'rb-readline'
 
 group :development, :test do
   gem 'rspec-rails','2.14.1'
+  gem 'guard-rspec','4.2.4'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 group :test do
