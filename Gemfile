@@ -13,6 +13,11 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'childprocess'
+
+end
+
+group :test do
+  gem 'factory_girl_rails'
 end
 
 group :test do
