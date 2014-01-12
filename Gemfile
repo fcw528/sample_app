@@ -3,26 +3,22 @@ ruby '2.0.0'
 
 gem 'rails', '4.0.2'
 gem 'pg', '0.17.1'
-gem 'rb-readline'
-gem 'bootstrap-sass'
-gem 'bcrypt-ruby'
+gem 'rb-readline','0.5.1'
+gem 'bootstrap-sass','3.0.3.0'
+gem 'bcrypt-ruby','3.1.2'
 
 group :development, :test do
   gem 'rspec-rails','2.14.1'
   gem 'guard-rspec','4.2.4'
-  gem 'spork-rails'
-  gem 'guard-spork'
-  gem 'childprocess'
-
-end
-
-group :test do
-  gem 'factory_girl_rails'
+  gem 'spork-rails','4.0.0'
+  gem 'guard-spork','1.5.1'
+  gem 'childprocess','0.3.9'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails','4.3.0'
 end
 
 gem 'sass-rails', '4.0.1'
